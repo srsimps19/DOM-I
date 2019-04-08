@@ -78,37 +78,46 @@ newNavItem.prepend(history);
 
 let domIsAwesome = document.querySelector('.cta h1');
 domIsAwesome.textContent = (siteContent["cta"]["h1"]);
+domIsAwesome.style.color = "cyan";
 let ctaButton = document.querySelector('.cta button');
 ctaButton.textContent = (siteContent["cta"]["button"]);
+ctaButton.style.color = "cyan";
+ctaButton.style.fontFamily = "bangers";
 
 
 let featuresH4 = document.querySelector('.main-content .top-content:first-child h4');
 featuresH4.textContent = (siteContent["main-content"]["features-h4"]);
+featuresH4.style.color = "cyan";
 let featuresPara = document.querySelector('.main-content .top-content:first-child p');
 featuresPara.textContent = (siteContent["main-content"]["features-content"]);
 
 let aboutH4 = document.querySelector('.main-content .top-content .text-content:last-child h4');
 aboutH4.textContent = (siteContent["main-content"]["about-h4"]);
+aboutH4.style.color = "cyan";
 let aboutPara = document.querySelector('.main-content .top-content .text-content:last-child p');
 aboutPara.textContent = (siteContent["main-content"]["about-content"]);
 
 let servicesH4 = document.querySelector('.main-content .bottom-content h4');
 servicesH4.textContent = (siteContent["main-content"]["services-h4"]);
+servicesH4.style.color = "cyan";
 let servicesPara = document.querySelector('.main-content .bottom-content p');
 servicesPara.textContent = (siteContent["main-content"]["services-content"]);
 
 let productH4 = document.querySelectorAll('.main-content .bottom-content h4')[1];
 productH4.textContent = (siteContent["main-content"]["product-h4"]);
+productH4.style.color = "cyan";
 let productPara = document.querySelectorAll('.main-content .bottom-content p')[1];
 productPara.textContent = (siteContent["main-content"]["product-content"]);
 
 let visionH4 = document.querySelectorAll('.main-content .bottom-content h4')[2];
 visionH4.textContent = (siteContent["main-content"]["vision-h4"]);
+visionH4.style.color = "cyan";
 let visionPara = document.querySelectorAll('.main-content .bottom-content p')[2];
 visionPara.textContent = (siteContent["main-content"]["vision-content"]);
 
 let contactH4 = document.querySelector('.contact h4');
 contactH4.textContent = (siteContent["contact"]["contact-h4"]);
+contactH4.style.color = "cyan";
 let contactPara1 = document.querySelectorAll('.contact p')[0];
 contactPara1.textContent = (siteContent["contact"]['address']);
 let contactPara2 = document.querySelectorAll('.contact p')[1];
@@ -118,3 +127,4 @@ contactPara3.textContent = (siteContent["contact"]['email']);
 
 let footer1 = document.querySelector('footer p');
 footer1.textContent = (siteContent["footer"]["copyright"]);
+footer1.style.color = "green";
