@@ -49,22 +49,29 @@ jumboImg.src = "img/mid-page-accent.jpg"
 
 const navItem1 = document.querySelector("nav a");
 navItem1.textContent = (siteContent["nav"]["nav-item-1"]);
+navItem1.style.color = "green";
 const navItem2 = document.querySelectorAll("nav a")[1];
 navItem2.textContent = (siteContent["nav"]["nav-item-2"]);
+navItem2.style.color = "green";
 const navItem3 = document.querySelectorAll("nav a")[2];
 navItem3.textContent = (siteContent["nav"]["nav-item-3"]);
+navItem3.style.color = "green";
 const navItem4 = document.querySelectorAll("nav a")[3];
 navItem4.textContent = (siteContent["nav"]["nav-item-4"]);
+navItem4.style.color = "green";
 const navItem5 = document.querySelectorAll("nav a")[4];
 navItem5.textContent = (siteContent["nav"]["nav-item-5"]);
+navItem5.style.color = "green";
 const navItem6 = document.querySelectorAll("nav a")[5];
 navItem6.textContent = (siteContent["nav"]["nav-item-6"]);
-// document.getElementsByTagName("nav a").style.color = "green";
+navItem6.style.color = "green";
 
 const sales = document.createElement('a');
 sales.textContent = "Sales";
+sales.style.color = "green";
 const history = document.createElement('a');
 history.textContent = "History";
+history.style.color = "green";
 const newNavItem = document.querySelector('nav');
 newNavItem.appendChild(sales);
 newNavItem.prepend(history);
